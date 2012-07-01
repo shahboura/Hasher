@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Easy Hash : MD5, SHA256, SHA512 (SALTED) hashing lib" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Easy Hash</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/ShAhBoUrA/Hasher">View on GitHub</a>
+
+          <h1 id="project_title">Easy Hash</h1>
+          <h2 id="project_tagline">MD5, SHA256, SHA512 (SALTED) hashing lib</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/ShAhBoUrA/Hasher/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/ShAhBoUrA/Hasher/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>Welcome to Easy Hash lib.</h3>
+
+<p>Small, Easy to use hashing library, providing PLAIN / SALT hash ability with (MD5, SHA256, SHA512). Hash verification feature is also implemented.<br>
+Entirely built using C#</p>
+
+<pre><code>// Compute SHA256 PLAIN hash
+var sha256Hash = hasher.SHA256ComputeHash("helloWorld");
+// Verify SHA256 PLAIN hash
+hasher.SHA256VerifyHash("helloWorld", sha256Hash);
+
+// Compute SHA256 SALT hash
+sha256Hash = hasher.SHA256SaltComputeHash("helloWorld");
+// Verify SHA256 SALT hash
+hasher.SHA256SaltVerifyHash("helloWorld", sha256Hash);
+</code></pre>
+
+<h3>Target Framework</h3>
+
+<p>.Net 2.0 and above.</p>
+
+<h3>Projects involved</h3>
+
+<ol>
+<li>Hasher, dll implementing various hashing algorithms</li>
+<li>HasherDemoTest, console application testing the Hasher project</li>
+</ol><h3>Authors and Contributors</h3>
+
+<ul>
+<li><a href="https://github.com/ShAhBoUrA" class="user-mention">@ShAhBoUrA</a></li>
+</ul><h3>Contact Me</h3>
+
+<ul>
+<li>Linkedin: <a href="http://eg.linkedin.com/in/shehabelhadidy">http://eg.linkedin.com/in/shehabelhadidy</a>
+</li>
+<li>Twitter:  <a href="https://twitter.com/#!/shahboura">@ShAhBoUrA</a>
+</li>
+<li>Mail:     <a href="mailto:shehab.elhadidy@gmail.com">shehab.elhadidy@gmail.com</a>
+</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Easy Hash maintained by <a href="https://github.com/ShAhBoUrA">ShAhBoUrA</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-33070921-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
