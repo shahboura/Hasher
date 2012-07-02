@@ -8,3 +8,4 @@ C:\Users\selhadidy\Documents\Visual Studio 2010\Projects\Hasher\Hasher\bin\Debug
 C:\Users\selhadidy\Documents\Visual Studio 2010\Projects\Hasher\Hasher\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\selhadidy\Documents\Visual Studio 2010\Projects\Hasher\Hasher\obj\Debug\Hasher.dll
 C:\Users\selhadidy\Documents\Visual Studio 2010\Projects\Hasher\Hasher\obj\Debug\Hasher.pdb
+C:\Users\selhadidy\Documents\Visual Studio 2010\Projects\Hasher\Hasher\bin\Debug\Hasher.XML
